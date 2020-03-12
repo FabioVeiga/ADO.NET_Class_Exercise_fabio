@@ -1,0 +1,23 @@
+﻿<Window x:Class="StudentsTryOut.newStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentsTryOut"
+        mc:Ignorable="d"
+        Title="IBT - New Student" Height="310" Width="450" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Height="319" VerticalAlignment="Top" Loaded="Grid_Loaded">
+        <Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,54,0,0"/>
+        <TextBox Name="txtStudentId" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="120,56,0,0" IsEnabled="False"/>
+        <Label Content="Fisrt Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,88,0,0"/>
+        <TextBox Name="txtStudentFisrtName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" Margin="120,89,0,0"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,120,0,0"/>
+        <TextBox Name="txtStudentLastName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" Margin="120,123,0,0"/>
+        <Label Content="Email Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,160,0,0"/>
+        <TextBox Name="txtStudentEmail" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" Margin="120,160,0,0"/>
+        <Button Name="btnSalve" Content="Salve" HorizontalAlignment="Left" Margin="5,211,0,0" VerticalAlignment="Top" Width="130" Height="45" Click="Button_Click"/>
+        <Button Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="295,210,0,0" VerticalAlignment="Top" Width="130" Height="45" Click="btnExit_Click"/>
+        <Button Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="152,211,0,0" VerticalAlignment="Top" Width="130" Height="45" Click="BbtnDelete_Click"/>
+
+    </Grid>
+</Window>
